@@ -16,6 +16,8 @@ Boolean alive = true;
 char symbol = '@'; //Char só tem ''
 string luckPhrase = "End Is Near";
 
+const string parent = "Barbara"; //Imutable
+
 
 Console.WriteLine(x);
 Console.WriteLine(y);
