@@ -16,7 +16,7 @@ Boolean alive = true;
 char symbol = '@'; //Char só tem ''
 string luckPhrase = "End Is Near";
 
-const string parent = "Barbara"; //Imutable
+const string parent = "Barbara"; //Immutable
 
 
 Console.WriteLine(x);
@@ -27,6 +27,7 @@ Console.WriteLine("Your height is: " + height);
 Console.WriteLine("Are you alive ? " + alive);
 Console.WriteLine("Your symbol is: " + symbol);
 Console.WriteLine("Your favorite phrase is: " + luckPhrase);
+Console.WriteLine("Test");
 
 Console.WriteLine("Who are you ? /n");
 string name = Console.ReadLine();
